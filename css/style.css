@@ -1,0 +1,48 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("../img/bgImg.jpg");
+	background-size: cover;
+}
+.calculator{
+	width: 310px;
+	height: 500px;
+	background: #EBE2EF;
+	border: 1px solid gray;
+	margin: 7% auto;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px gray;
+	padding: 15px;
+}
+.result{
+	height: 100px;
+	text-align: right;
+}
+.result .history{
+	height: 20px;
+	padding: 5px;
+}
+.result .output{
+	height: 20px;
+	padding: 5px;
+}
+.oarator{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-top: 15px;
+	float: left;
+	border: none;
+	margin-right: 6%;
+	background: gray;
+}
+#as{
+	margin-left:  70%;
+}
+.number{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-top: 15px;
+	float: left;
+	border: none;
+	margin-right: 6%;
+}
